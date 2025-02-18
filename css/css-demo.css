@@ -57,7 +57,7 @@ body{
     background-color: hsl(175, 53%, 90%);
 }
 .hsl2{
-    background-color: hsl(175, 53%, 20%);
+    background-color: hsl(175, 53%, 20%,0.2);
 }
 .named{
     background-color: violet;
