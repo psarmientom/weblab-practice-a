@@ -14,6 +14,7 @@ body{
     vertical-align: top;
     position: relative;
     padding:20px;
+    transition: all ease-in-out 0.5s;
 }
 .box-sm{
     width:100px;
@@ -43,12 +44,22 @@ body{
     margin:0;
     text-shadow: #000 2px 2px 2px;
 }
+a{
+    color:brown;
+    text-decoration:none;
+    /* color:black; */
+    font-size:2rem;
+}
+p span{
+    font-size:2rem;
+}
 /* Background Colors */
 .hex{
     background-color: #334ef9 ;
 }
 .rgb{
     background-color: rgb(113, 189, 89 );
+    
 }
 .rgba{
     background-color: rgba(155,255,255,0.5);
@@ -95,13 +106,72 @@ body{
 .bg-img{
     background-image: url(../images/pizza.png);
 }
+.contain{
+    background-size: contain;
+}
+.cover{
+    background-size: cover;
+}
+.bg-img1{
+    background-image: url(../images/1shazmyn-ali-sm.jpg);
+}
+.fixed{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-full img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
 /* Tables  */
+.tables{
+    background-color: #efefef;
+    padding:50px;
+}
+.tables h2{
+    text-align: center;;
+}
+table{
+    margin:3.2rem auto;
+    border-collapse: collapse;
+}
+.tableDemo th{
+    background-color: aqua;
+    color: rgb(7, 72, 75);
+}
+.tableDemo td, .tableDemo th{
+    border: 1px solid #000;
+    padding:20px;
+}
 
 /* Hover  */
-
+a:hover{
+    text-decoration: underline;
+    color:aqua;
+}
+.hoverColor:hover{
+    background-color: chocolate;
+}
+.hoverRotate:hover{
+    transform: rotate(30deg);
+}
+.hoveScale:hover{
+    transform: scale(1.5);
+}
+.hidden{
+    font-size: 4rem;
+    text-align: center;
+    display: none;
+}
 /* Adjacent sibling combinator. (+)
 It combines two sequences of simple selectors having the same parent 
 and the second one must come IMMEDIATELY after the first. */
 .hoverHide:hover + .hidden{
-    
+   display: inline-block; 
+}
+.imageHover:hover{
+    background-image: url(../images/pizza-plate.jpg);
+    background-size: cover;
 }
