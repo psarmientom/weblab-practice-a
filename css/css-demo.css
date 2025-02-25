@@ -4,6 +4,16 @@
 /* General Settings */
 body{
     padding:30px;
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+    font-weight: 300;
+  /* font-style: normal; */
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Cookie", serif;
+  font-weight: 400;
+    font-style: normal;
+    font-size:3rem;
 }
 .box{
     width:230px;
@@ -174,4 +184,19 @@ and the second one must come IMMEDIATELY after the first. */
 .imageHover:hover{
     background-image: url(../images/pizza-plate.jpg);
     background-size: cover;
+}
+.bg-hover:hover{
+    background-image: url(../images/pizza-plate.jpg);
+    background-size: cover;
+}
+.bg-opacity:hover{
+    opacity:0.5;
+}
+.img-double img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-double img:hover{
+    display: none;
 }
