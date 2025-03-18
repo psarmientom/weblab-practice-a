@@ -7,8 +7,8 @@ body{
     padding:0;
 }
 .wrapper{
-    background: rgb(255, 248, 246);
-    background:  url(../images/swirl.svg), linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 251, 225, 1) 0%, rgb(197, 222, 193) 100%);
+    background: #fff7f5;
+    background:  url(../images/swirl.svg), linear-gradient(180deg, #020024 0%, rgba(255, 251, 225, 1) 0%, rgb(197, 222, 193) 100%);
     background-size: 40%, cover;
     /* background-color: black; */
     background-repeat: no-repeat;
@@ -29,17 +29,17 @@ nav ul{
     list-style: none;;
 }
 a{
-    color:brown;
+    color:#a52a2a;
 }
 a:hover{
-    color:rgb(71, 6, 6);
+    color:#470606;
     text-decoration: none;
 }
 nav ul li{
     /* background-color: bisque; */
     display: inline-block;
     padding:2rem;
-    border:solid 1px brown;
+    border:solid 1px #a52a2a;
     width: 120px;
     text-align: center;
 }
